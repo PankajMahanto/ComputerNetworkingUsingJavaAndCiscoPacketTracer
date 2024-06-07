@@ -16,7 +16,7 @@ public class MultithreadedServer {
 
         while (true) {
             Socket clientSock = sock.accept();
-            sock.close();
+            // sock.close();
             System.out.println("A new client is connected "+clientSock);
             DataOutputStream dos=new DataOutputStream(clientSock.getOutputStream());
             DataInputStream dis=new DataInputStream(clientSock.getInputStream());
@@ -24,7 +24,6 @@ public class MultithreadedServer {
             Thread newThread=new ClientHandler(clientSock,dis,dos);
             newThread.start();
         }
-       
     
     }
 }

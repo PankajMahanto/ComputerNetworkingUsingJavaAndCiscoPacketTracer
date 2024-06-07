@@ -6,7 +6,7 @@
 // 5 clients, the server closes down automatically.
 
 
-package Practice;
+package TaskAndReportProblemSolved;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

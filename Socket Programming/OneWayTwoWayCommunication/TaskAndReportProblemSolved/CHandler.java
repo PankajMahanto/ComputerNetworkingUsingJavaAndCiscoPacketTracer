@@ -1,4 +1,4 @@
-package Practice;
+package TaskAndReportProblemSolved;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

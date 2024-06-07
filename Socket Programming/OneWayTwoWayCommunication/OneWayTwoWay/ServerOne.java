@@ -17,6 +17,9 @@ public class ServerOne {
         System.out.println("Client Request is accepted at port no: "+s.getPort());
         System.out.println("Server's Communication Port: "+s.getLocalPort());
 
+
+        //DataInput Stream er through te asole kono kisu read kora hoy jeta stream er through te ase
+        //jemon port er through te jeta ase
         DataInputStream input=new DataInputStream(s.getInputStream());
         String str="";
         while (!str.equals("over")) {
