@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .banner {
+      width: 100%;
+      height: 600px;
+      background: url('fort.gif') no-repeat center center/cover;
+    }
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    .left-column,
+    .right-column {
+      width: 48%;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Website</h1>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Blogs</a>
+    <a href="#">Projects</a>
+  </nav>
+  <div class="banner"></div>
+  <div class="content">
+    <div class="left-column">
+      <h2>Blogs</h2>
+      <p>This is where your blog content goes...</p>
+    </div>
+    <div class="right-column">
+      <h2>About Me</h2>
+      <p>Some information about yourself...</p>
+      <h2>Join Mailing List</h2>
+      <form>
+        <input type="email" placeholder="Your Email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p>Connect with me:</p>
+    <a href="#">Twitter</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">GitHub</a>
+  </footer>
+</body>
+</html>
